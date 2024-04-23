@@ -20,7 +20,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
@@ -35,4 +36,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+.fontStyle{
+  font-family: 'RobotoFont', sans-serif;
+}
+@font-face {
+  font-family: 'RobotoFont';
+  /*src: url(../public/fonts/OpenSans-ExtraBold.ttf) format('ttf');*/
+  src: url(../public/fonts/OpenSans_Condensed-Italic.ttf) format('ttf');
+}
+
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../public/static//images/icons/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'OswaldFont';
+  src: url(../public/fonts/Oswald-Bold.ttf);
+}
+.oswald-font {
+  font-family: "OswaldFont", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
