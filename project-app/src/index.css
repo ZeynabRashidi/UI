@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.font-style{
+  font-family: 'Roboto-font', sans-serif;
+}
+@font-face {
+  font-family: 'Roboto-font';
+  src: url(../public/fonts/OpenSans_Condensed-Italic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Oswald-font';
+  src: url(../public/fonts/Oswald-Medium.ttf) format('ttf');
+}
+ .oswald-font {
+  font-family: "Oswald-font", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald-font';
+  src: url(../public/fonts/Oswald-Medium.ttf) format('ttf');
+}
+p , span , h1,h3 , div ,.main-font {
+  font-family: "main-font", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'main-font';
+  src: url(../public/fonts/OpenSans_Condensed-Medium.ttf) format('ttf');
+}
