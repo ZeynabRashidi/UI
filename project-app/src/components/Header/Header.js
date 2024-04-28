@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "../Button/Button";
 import ButtonTypes from "../Button/ButtonTypes";
 import Input from "../Input/Input";
+import "./Header.css";
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -25,7 +26,7 @@ const Header = () => {
           type="text"
           className="header-search-input"
           placeholder="جستجو در اسنپ فود"
-          icon="material-symbols-outlined"
+          icon="material-icons-search"
           value={searchTerm}
           onChange={handleSearchChange}
         />

@@ -1,0 +1,242 @@
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    background-color: #f1f1f1;
+    color: #070606;
+    padding: 30px;
+    flex-flow: row;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0 60px; /* Adjust margin between items */
+}
+
+a {
+    text-decoration: none;
+    color: #050303;
+}
+.category  {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-content: initial;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-flow: column;
+    -ms-flex-item-align: start;
+    justify-content: flex-start;
+    margin: 0 60px; /* Adjust margin between items */
+   
+  }
+
+/* fallback */
+@font-face {
+    font-family: 'material-icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public/static/icons/coffee.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'material-icons';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 2px;
+  }
+
+  /* fallback */
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public//static/icons/restaurant.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+/* fallback */
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public//static//icons/shop.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined-shop {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+/* fallback */
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public//static//icons/cake.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined-cake {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* fallback */
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public//static//icons/fruit.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined-fruit {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* fallback */
+@font-face {
+    font-family: 'Material Symbols Outlined bakery';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public//static//icons/bakeryDining.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined-bakeryDining {
+    font-family: 'Material Symbols Outlined bakery';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  @font-face {
+    font-family: 'Material Symbols Outlined icecream';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public//static//icons/icecream.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined-icecream {
+    font-family: 'Material Symbols Outlined icecream';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  @font-face {
+    font-family: 'Material Symbols Outlined other';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public/static//icons/other.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined-other {
+    font-family: 'Material Symbols Outlined other';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  @font-face {
+    font-family: 'Material Symbols Outlined protein';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../public/static//icons/protein.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined-protein {
+    font-family: 'Material Symbols Outlined protein';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
